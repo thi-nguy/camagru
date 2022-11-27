@@ -1,5 +1,36 @@
 {
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6"
+  },
+  "name": "camagru-nodejs-express",
+  "description": "Project Camagru at 42. My first step in Fullstack.",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thi-nguy/camagru.git"
+  },
+  "keywords": [
+    "camagru",
+    "nodejs",
+    "express",
+    "js",
+    "html",
+    "css"
+  ],
+  "author": "thi-nguy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thi-nguy/camagru/issues"
+  },
+  "homepage": "https://github.com/thi-nguy/camagru#readme",
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
   }
 }
