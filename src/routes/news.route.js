@@ -3,7 +3,7 @@ const router = express.Router();
 const newsController = require('../app/controllers/NewsController'); // is an object
 
 // Route doc tu tren xuong duoi, nen phai de index xuong duoi cung
-router.use('/:slug', newsController.show)
+router.get('/:slug', newsController.show)
 
 /************************************ */
 //   app.get(
@@ -13,7 +13,7 @@ router.use('/:slug', newsController.show)
 //     }
 //   );
 // Tuong duong code o tren
-router.use('/', newsController.index);
+router.get('/', newsController.index);
 /************************************ */
 
 module.exports = router;
